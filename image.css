@@ -1,0 +1,66 @@
+.icons {
+  width: 31px;
+  height: 31px;
+  padding: 3px;
+  margin-left: 5px;
+  background-color: #FFB6C1;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+.portfolio-image {
+  width: 450px;
+  height: 270px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background: #DDA0DD; /* Цвет фона */
+  box-shadow: 0 0 90px rgba(0, 0, 0, 1.5); /* Параметры тени */
+  padding: 5px;
+}
+
+.member-photo {
+  width: 120px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+@media (max-width: 1080px) {
+  .portfolio-image {
+    width: 50%;
+    margin: 0 auto;
+    width: 450px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio-image {
+    width: 50%;
+    margin: 0 auto;
+    width: 300px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .portfolio-image {
+    width: 50%;
+    margin: 0 auto;
+    width: 200px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .icons {
+    width: 25px;
+    height: 25px;
+  }
+}
