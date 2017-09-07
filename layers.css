@@ -1,6 +1,6 @@
 .intro {
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(rgba(138, 46, 150, 0.5), rgba(138, 46, 46, 0.5) 90%), url("image/lending_image.jpg");
+  background-image: linear-gradient(rgba(138, 46, 150, 0.5), rgba(138, 46, 46, 0.5) 90%);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100%;
